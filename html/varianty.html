@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Варианты объявления о продаже дома</title>
+<style>
+:root { color-scheme: light dark; --фон:#f5f6f8; --карточка:#fff; --текст:#20242b; --приглушённый:#5e6875; --линия:#d8dde5; --кнопка:#174ea6; --кнопка-текст:#fff; }
+:root[data-theme="light"] { color-scheme:light; --фон:#f5f6f8; --карточка:#fff; --текст:#20242b; --приглушённый:#5e6875; --линия:#d8dde5; --кнопка:#174ea6; --кнопка-текст:#fff; }
+:root[data-theme="dark"] { color-scheme:dark; --фон:#15181d; --карточка:#20252d; --текст:#eef1f5; --приглушённый:#b5bdc9; --линия:#3b434e; --кнопка:#9fc1ff; --кнопка-текст:#10213a; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--фон); color:var(--текст); font:18px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { width:min(100% - 28px, 780px); margin:0 auto; padding:24px 0 56px; }
+header { display:flex; justify-content:space-between; align-items:center; gap:12px; margin-bottom:22px; }
+h1 { font-size:clamp(1.7rem,6vw,2.25rem); line-height:1.2; margin:0 0 1rem; }
+h2 { font-size:1.45rem; line-height:1.3; margin:1.6rem 0 .7rem; }
+h3 { font-size:1.2rem; margin:1.35rem 0 .5rem; }
+p,li { font-size:1rem; }
+p { margin:.65rem 0 1rem; }
+.card { background:var(--карточка); border:1px solid var(--линия); border-radius:16px; padding:20px; margin:16px 0; box-shadow:0 3px 14px rgb(0 0 0 / 4%); }
+.card h1:first-child,.card h2:first-child { margin-top:0; }
+button { min-height:46px; padding:10px 15px; border:1px solid var(--линия); border-radius:10px; background:var(--кнопка); color:var(--кнопка-текст); font:600 17px/1.2 system-ui,-apple-system,"Segoe UI",sans-serif; cursor:pointer; }
+button.secondary { background:var(--карточка); color:var(--текст); }
+button:focus-visible,a:focus-visible { outline:3px solid #f2a900; outline-offset:3px; }
+.toolbar { display:flex; justify-content:flex-end; }
+.copy-row { display:flex; justify-content:flex-end; margin-top:16px; }
+small,.muted { color:var(--приглушённый); }
+a { color:var(--кнопка); }
+hr { border:0; border-top:1px solid var(--линия); margin:1.5rem 0; }
+li { margin:.3rem 0; }
+@media (max-width:520px) { body { font-size:17px; } .card { padding:16px; border-radius:12px; } header { align-items:flex-start; } }
+</style>
+</head>
+<body>
+<main>
+<header><span class="muted">Продажа дома в Подкумке</span><button class="secondary" id="theme" type="button" aria-label="Переключить тему">Тёмная тема</button></header>
+<h1>Варианты объявления о продаже дома</h1>
+<section class="card"><h2>Вариант 1</h2><p>Продаётся кирпичный дом в Подкумке с большой террасой и участком 7,62 сотки.</p>
+<p>Дом 1992 года, строили для себя. Три надземных этажа и цокольный, стены — кирпич, цоколь — фундаментные блоки.</p>
+<p>Первый этаж — 130,8 м², потолки 3 метра. Какие именно комнаты на первом этаже — уточню, плана этого этажа у меня пока нет. Второй этаж — две комнаты, одна 38,8 м², высота потолков 2,73 м. Мансарда — 54,5 м², сейчас одно открытое помещение 46,6 м², высота 2,3 м. Цоколь — 74,3 м², потолок 3 метра.</p>
+<p>Терраса — 69,8 м².</p>
+<p>На участке сарай 43,2 м², бетонный двор 76,4 м², металлические ворота, забор. Земля в собственности, ЛПХ, земли населённых пунктов.</p>
+<p>По поводу площади: в техпаспорте 2008 года — 268,6 м², в выписке ЕГРН 2019 года — 338,4 м². Разница, судя по всему, — терраса: 268,6 + 69,8 = 338,4. Какую площадь ставить в объявление — решим после того, как разберёмся с этим расхождением.</p>
+<p>Коммуникации — газ, воду, электричество, канализацию и отопление — нужно проверить отдельно по каждой сети. Пока документов на них нет, писать «всё подключено» не буду.</p>
+<p>Подкумок — посёлок в Предгорном районе, рядом с Ессентуками. Насколько рядом и что именно в доступности — уточню и впишу, когда проверю.</p>
+<p>Покажу в удобное время — напишите, договоримся.</p>
+<p>[цена — после решения владельца]</p>
+<hr><div class="copy-row"><button type="button" data-copy>Скопировать</button></div></section>
+<section class="card"><h2>Вариант 2</h2><p>Кирпичный дом с большой террасой в Подкумке, участок 7,62 сотки в собственности.</p>
+<p>Дом 1992 года постройки, кирпич, фундаментные блоки в цоколе. Три надземных этажа и цокольный.</p>
+<p>Первый этаж — 130,8 м², потолки 3 метра. Что именно на этом этаже — нужно уточнить у владельца, плана нет. Второй этаж — комната 38,8 м² и комната с лестницей 18,8 м², высота 2,73 м. Мансарда — помещение 46,6 м², высота 2,3 м. Цоколь — 74,3 м², потолок 3 метра. Состояние цоколя и мансарды уточню отдельно.</p>
+<p>Терраса — 69,8 м².</p>
+<p>Во дворе — сарай 43,2 м², бетонная площадка 76,4 м², ворота металлические.</p>
+<p>Площадь дома в документах указана по-разному: 268,6 м² в техпаспорте и 338,4 м² в выписке ЕГРН. Разница — терраса. До публикации это нужно привести в порядок.</p>
+<p>Газ, вода, электричество, канализация, отопление — по каждой сети нужно подтверждение. Пока документов на коммуникации среди собранных материалов нет.</p>
+<p>Земля — населённый пункт, ЛПХ, в собственности.</p>
+<p>Напишите — договоримся о просмотре.</p>
+<p>[цена — после решения владельца]</p>
+<hr><div class="copy-row"><button type="button" data-copy>Скопировать</button></div></section>
+<section class="card"><h2>Вариант 3</h2><p>Продаётся большой кирпичный дом в Подкумке с террасой и участком 7,62 сотки.</p>
+<p>Дом 1992 года, кирпич. Три этажа, цоколь и терраса 69,8 м².</p>
+<p>Первый этаж — 130,8 м², потолки 3 м. Комнаты на первом этаже уточняю — плана пока нет. Второй этаж — две комнаты: 38,8 м² и 18,8 м² (с лестницей), высота 2,73 м. Мансарда — 46,6 м², высота 2,3 м, одно помещение. Цоколь — 74,3 м², потолок 3 м.</p>
+<p>На участке: сарай 43,2 м², бетонный двор 76,4 м², забор, ворота. Земля в собственности, ЛПХ, земли населённых пунктов.</p>
+<p>О площади дома: техпаспорт — 268,6 м², выписка ЕГРН — 338,4 м². Разница — терраса (268,6 + 69,8 = 338,4). Какую цифру ставить — решим, когда расхождение будет закрыто.</p>
+<p>Коммуникации: документов на газ, воду, электричество, канализацию и отопление пока нет. Что именно подключено — проверю и впишу.</p>
+<p>Подкумок — Предгорный район, рядом с Ессентуками. Расстояние и время в пути уточню.</p>
+<p>Напишите, договоримся о просмотре.</p>
+<p>[цена — после решения владельца]</p>
+<hr><div class="copy-row"><button type="button" data-copy>Скопировать</button></div></section>
+<section class="card"><h2>Telegram</h2><p>В Подкумке продаётся кирпичный дом с большой террасой и участком 7,62 сотки в собственности. Три этажа и цоколь. Площадь и подробности уточняю по документам — напишите, расскажу, что известно, и договоримся о просмотре.</p>
+<p>[цена — после решения владельца]</p>
+<hr><div class="copy-row"><button type="button" data-copy>Скопировать</button></div></section>
+<section class="card"><h2>WhatsApp — знакомому</h2><p>Привет! В Подкумке продаётся кирпичный дом — три этажа, цоколь, большая терраса, участок 7,62 сотки в собственности. Если знаешь тех, кто ищет дом в Предгорном районе или на КМВ, перешли им мой номер. Фото пришлю, когда сделаем съёмку дома.</p>
+<hr><div class="copy-row"><button type="button" data-copy>Скопировать</button></div></section>
+</main>
+<script>
+const корень = document.documentElement;
+const переключатель = document.getElementById('theme');
+const сохранённаяТема = localStorage.getItem('тема');
+if (сохранённаяТема) корень.dataset.theme = сохранённаяТема;
+function подписьТемы() { переключатель.textContent = корень.dataset.theme === 'dark' ? 'Светлая тема' : 'Тёмная тема'; }
+подписьТемы();
+переключатель.addEventListener('click', () => {
+  корень.dataset.theme = корень.dataset.theme === 'dark' ? 'light' : 'dark';
+  localStorage.setItem('тема', корень.dataset.theme);
+  подписьТемы();
+});
+document.querySelectorAll('[data-copy]').forEach((кнопка) => кнопка.addEventListener('click', async () => {
+  const копия = кнопка.closest('.card').cloneNode(true);
+  копия.querySelectorAll('button').forEach((элемент) => элемент.remove());
+  try {
+    await navigator.clipboard.writeText(копия.innerText.trim());
+    кнопка.textContent = 'Скопировано';
+    setTimeout(() => кнопка.textContent = 'Скопировать', 1600);
+  } catch { кнопка.textContent = 'Не удалось скопировать'; }
+}));
+</script>
+</body>
+</html>
